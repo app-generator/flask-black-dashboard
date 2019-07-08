@@ -1,4 +1,4 @@
-﻿## [Flask Dashboard Argon](https://flask-black-dashboard.appseed.us)
+﻿## [Flask Dashboard Black](https://flask-black-dashboard.appseed.us)
 
 Admin [Dashboard](https://en.wikipedia.org/wiki/Dashboard_(business)) with [Black Dashboard](https://www.creative-tim.com/product/black-dashboard) design coded in [Flask](http://flask.pocoo.org/)
 
