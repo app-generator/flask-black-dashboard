@@ -1,23 +1,10 @@
-﻿## [Flask Dashboard Black](https://flask-black-dashboard.appseed.us)
+﻿# [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black)
 
-Admin [Dashboard](https://en.wikipedia.org/wiki/Dashboard_(business)) with [Black Dashboard](https://www.creative-tim.com/product/black-dashboard) design coded in [Flask](http://flask.pocoo.org/)
-
-<hr>
+Admin [Dashboard](https://en.wikipedia.org/wiki/Dashboard_(business)) with [Black Dashboard](https://www.creative-tim.com/product/black-dashboard) design coded in [Flask](http://flask.pocoo.org/) - [Flask Dashboard Black Demo](https://flask-black-dashboard.appseed.us/)
 
 ![Flask Dashboard](https://github.com/app-generator/flask-black-dashboard/blob/master/screenshots/flask-black-dashboard-intro.gif)
 
-<hr>
-
-Demo app here - [Flask Material Dashboard](https://flask-black-dashboard.appseed.us)
-
-**What is Flask?** Flask is a microframework for Python based on Werkzeug and Jinja2.
-
-### Dashboard Page Screenshot 
-
-![Material Dashboard - coded in Flask](https://github.com/app-generator/flask-black-dashboard/blob/master/screenshots/flask-black-dashboard-main.jpg)
-
-
-### Quick Start
+## Build from sources
 
 1. Clone the repo
   ```
@@ -43,8 +30,7 @@ Demo app here - [Flask Material Dashboard](https://flask-black-dashboard.appseed
 
 6. Navigate to [http://localhost:5000](http://localhost:5000)
 
-Features
-------
+## Features
 
 - SQLite database
 - Login, Register
@@ -52,15 +38,16 @@ Features
 - FTP Deploy script. **Info**: this `require node.js` and the edit of `deploy.js` to add FTP server credentials. 
 
 ## Support
+
 - For issues and features request, use [Github](https://github.com/app-generator/flask-black-dashboard/issues/new) or join [AppSeed](https://appseed.us?ref=light-dashboard-flask) community on [Discord](https://discord.gg/fZC6hup)   
 
 
-### More Screenshots
+## App Screenshots
 
 ![Flask Dashboard](https://github.com/app-generator/flask-black-dashboard/blob/master/screenshots/flask-black-dashboard-login.jpg)
 ![Flask Dashboard](https://github.com/app-generator/flask-black-dashboard/blob/master/screenshots/flask-black-dashboard-notif.jpg)
 
-### Resources
+## Resources
 
  - [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) - app info
  - Product [documentation](https://docs.appseed.us/admin-dashboards/flask-dashboard-black/)
