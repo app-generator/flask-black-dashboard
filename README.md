@@ -45,10 +45,12 @@
 
 - For issues and features request, use [Github](https://github.com/app-generator/flask-black-dashboard/issues/new) or join [AppSeed](https://appseed.us?ref=light-dashboard-flask) community on [Discord](https://discord.gg/fZC6hup)   
 
-
 ## App Screenshots
 
 ![Flask Dashboard](https://github.com/app-generator/flask-black-dashboard/blob/master/screenshots/flask-black-dashboard-login.jpg)
+
+<br />
+
 ![Flask Dashboard](https://github.com/app-generator/flask-black-dashboard/blob/master/screenshots/flask-black-dashboard-notif.jpg)
 
 ## Resources
