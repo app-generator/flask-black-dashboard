@@ -1,6 +1,6 @@
 ﻿# [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black)
 
-[Live Demo](https://flask-black-dashboard.appseed.us/) - Open-Source Admin Dashboard with [Black Dashboard](https://www.creative-tim.com/product/black-dashboard) design coded in [Flask](http://flask.pocoo.org/)
+[Live Demo](https://flask-black-dashboard.appseed.us/) - Open-Source **Admin Dashboard** with [Black Dashboard](https://www.creative-tim.com/product/black-dashboard) design coded in [Flask](http://flask.pocoo.org/)
 
 <br />
 
