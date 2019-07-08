@@ -2,7 +2,11 @@
 
 [Live Demo](https://flask-black-dashboard.appseed.us/) - Open-Source Admin Dashboard with [Black Dashboard](https://www.creative-tim.com/product/black-dashboard) design coded in [Flask](http://flask.pocoo.org/)
 
+<br />
+
 ![Flask Dashboard](https://github.com/app-generator/flask-black-dashboard/blob/master/screenshots/flask-black-dashboard-intro.gif)
+
+<br />
 
 ## Build from sources
 
