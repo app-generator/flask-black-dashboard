@@ -34,6 +34,8 @@
 
 6. Navigate to [http://localhost:5000](http://localhost:5000)
 
+<br />
+
 ## Features
 
 - SQLite database
@@ -41,9 +43,13 @@
 - Static Build `python ./static.py`. The static build goes to `app/build` directory 
 - FTP Deploy script. **Info**: this `require node.js` and the edit of `deploy.js` to add FTP server credentials. 
 
+<br />
+
 ## Support
 
-- For issues and features request, use [Github](https://github.com/app-generator/flask-black-dashboard/issues/new) or join [AppSeed](https://appseed.us?ref=light-dashboard-flask) community on [Discord](https://discord.gg/fZC6hup)   
+For issues and features request, use **Github** or access the [support page](https://appseed.us/support) provided by **AppSeed** 
+
+<br />
 
 ## App Screenshots
 
@@ -62,5 +68,7 @@
  - [Black Dashboard](https://www.creative-tim.com/product/black-dashboard) - design information (Creative-Tim)
  - [Flask](http://flask.pocoo.org/) - official website
  
+<br />
+ 
 ---
-Made with ♥ by [AppSeed](https://appseed.us?ref=github)
+[Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) provided by **AppSeed**
