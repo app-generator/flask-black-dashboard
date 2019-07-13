@@ -1,6 +1,6 @@
 # [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black)
 
-[Live Demo](https://flask-black-dashboard.appseed.us/) - Open-Source **Admin Dashboard** with [Black Dashboard](https://www.creative-tim.com/product/black-dashboard) design coded in [Flask](http://flask.pocoo.org/)
+Open-Source **admin dashboard** with **Black** design coded in **Flask**
 
 <br />
 
@@ -53,11 +53,15 @@ For issues and features request, use **Github** or access the [support page](htt
 
 ## App Screenshots
 
+<br />
+
 ![Flask Dashboard](https://github.com/app-generator/flask-black-dashboard/blob/master/screenshots/flask-black-dashboard-login.jpg)
 
 <br />
 
 ![Flask Dashboard](https://github.com/app-generator/flask-black-dashboard/blob/master/screenshots/flask-black-dashboard-notif.jpg)
+
+<br />
 
 ## Resources
 
