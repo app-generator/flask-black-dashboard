@@ -1,6 +1,6 @@
 # [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black)
 
-Open-Source and Free **[admin dashboard](https://appseed.us/admin-dashboards)** with Material Design coded in **[Flask](https://palletsprojects.com/p/flask/)**. **Dashboard** features:
+Open-Source and Free **[admin dashboard](https://appseed.us/admin-dashboards)** with Black Design coded in **[Flask](https://palletsprojects.com/p/flask/)**. **Dashboard** features:
 - SQLite database, SQLAlchemy ORM
 - Autehtication Flow (login, register)
 - Static Build `python ./static.py` via Frozen-Flask
