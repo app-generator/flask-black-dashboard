@@ -1,10 +1,11 @@
 # [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black)
 
 Open-Source and Free **[admin dashboard](https://appseed.us/admin-dashboards)** with Black Design coded in **[Flask](https://palletsprojects.com/p/flask/)**. **Dashboard** features:
+
 - SQLite database, SQLAlchemy ORM
-- Autehtication Flow (login, register)
-- Static Build `python ./static.py` via Frozen-Flask
-- **MIT License** 
+- Session based authentication flow (login, register)
+- Static Build via Frozen-Flask
+- **MIT License**
 
 <br />
 
@@ -41,12 +42,10 @@ $ # app is running on port 5000
 
 ## Resources
 
- - [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) - app info
- - Product [documentation](https://docs.appseed.us/admin-dashboards/flask-dashboard-black/)
- - Live [DEMO](https://flask-black-dashboard.appseed.us/)
- - Related [Blog Article](https://blog.appseed.us/flask-apps-and-open-source-flask-dashboards/)
- - [Black Dashboard](https://www.creative-tim.com/product/black-dashboard) - design information (Creative-Tim)
- - [Flask](http://flask.pocoo.org/) - official website
+- [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) - product page
+- [Flask Dashboard Black](https://flask-black-dashboard.appseed.us/) - live DEMO
+- [Black Dashboard](https://www.creative-tim.com/product/black-dashboard) - design information (Creative-Tim)
+- [Flask Framework](https://palletsprojects.com/p/flask/) - official website
  
 <br />
  
