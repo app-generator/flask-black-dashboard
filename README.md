@@ -9,7 +9,7 @@ Open-Source and Free **[admin dashboard](https://appseed.us/admin-dashboards)** 
 
 <br />
 
-![Flask Dashboard](https://github.com/app-generator/flask-black-dashboard/blob/master/screenshots/flask-black-dashboard-intro.gif)
+![Flask Dashboard Black - Open-Source Admin Panel](https://raw.githubusercontent.com/app-generator/flask-black-dashboard/master/screenshots/flask-black-dashboard-intro.gif)
 
 <br />
 
