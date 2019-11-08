@@ -37,9 +37,9 @@ $ # SQLite database.db should be created in the app folder:
 $ # app\database.db
 $
 $ # Set the FLASK_APP environment variable
-$ (Windows) set FLASK_APP=appseed-app.py
-$ (Unix) export FLASK_APP=appseed-app.py
-$ (Powershell) $env:FLASK_APP = ".\appseed-app.py"
+$ (Windows) set FLASK_APP=app.py
+$ (Unix) export FLASK_APP=app.py
+$ (Powershell) $env:FLASK_APP = ".\app.py"
 $ 
 $ flask app.py
 $ # app is running on port 5000
