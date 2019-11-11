@@ -56,7 +56,6 @@ $ # app is running on port 5000
 <br />
 
 ## Support
----
 
 - Free support via eMail < [support @ appseed.us](https://appseed.us/support) > and [Github](https://github.com/app-generator/flask-black-dashboard/issues/)
 - 24/7 Live Support via [Discord](https://discord.gg/fZC6hup) for paid plans and commercial products.
