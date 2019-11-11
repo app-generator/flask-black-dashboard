@@ -76,4 +76,4 @@ $ # app is running on port 5000
 <br />
  
 ---
-[Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) provided by **AppSeed**
+[Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) - provided by **AppSeed**
