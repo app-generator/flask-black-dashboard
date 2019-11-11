@@ -1,11 +1,10 @@
 # [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black)
 
-Open-Source and Free **[admin dashboard](https://appseed.us/admin-dashboards)** with Black Design coded in **[Flask](https://palletsprojects.com/p/flask/)**. **Dashboard** features:
+**[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/flask-dashboard-black)** coded in **Flask Web Framework** on top of **Black Dashboard** design, crafted by Creative-Tim agency. **Dashboard** features:
 
-- SQLite database, SQLAlchemy ORM
-- Session based authentication flow (login, register)
-- Static Build via Frozen-Flask
-- **MIT License**
+- SQLite database
+- SQLAlchemy ORM
+- Session-Based authentication flow (login, register)
 
 <br />
 
@@ -57,12 +56,22 @@ $ # app is running on port 5000
 
 <br />
 
+## Support
+---
+
+- Free support via eMail < [support @ appseed.us](https://appseed.us/support) > and [Github](https://github.com/app-generator/flask-black-dashboard/issues/)
+- 24/7 Live Support via [Discord](https://discord.gg/fZC6hup) for paid plans and commercial products.
+
+<br />
+
 ## Resources
 
-- [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) - product page
-- [Flask Dashboard Black](https://flask-black-dashboard.appseed.us/) - live DEMO
-- [Black Dashboard](https://www.creative-tim.com/product/black-dashboard) - design information (Creative-Tim)
-- [Flask Framework](https://palletsprojects.com/p/flask/) - official website
+- [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) - Product page
+- [Flask Dashboard Black](https://flask-black-dashboard.appseed.us/) - Live DEMO
+- [Flask Dashboard Black](https://github.com/app-generator/flask-black-dashboard/) - Source code published on Github
+- [Flask Framework](https://www.palletsprojects.com/p/flask/) - Offcial website
+- [Flask Dashboard - Open-Source Boilerplates](https://dev.to/sm0ke/flask-dashboard-open-source-boilerplates-dkg) - A popular article published on Dev.to platform
+- [Flask Dashboard](https://admin-dashboards.com/tags/flask-dashboard) - Index provided by **Admin-Dashboards.com**
  
 <br />
  
