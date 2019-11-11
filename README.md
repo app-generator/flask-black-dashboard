@@ -68,7 +68,6 @@ $ # app is running on port 5000
 
 - [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) - Product page
 - [Flask Dashboard Black](https://flask-black-dashboard.appseed.us/) - Live DEMO
-- [Flask Dashboard Black](https://github.com/app-generator/flask-black-dashboard/) - Source code published on Github
 - [Flask Framework](https://www.palletsprojects.com/p/flask/) - Offcial website
 - [Flask Dashboard - Open-Source Boilerplates](https://dev.to/sm0ke/flask-dashboard-open-source-boilerplates-dkg) - A popular article published on Dev.to platform
 - [Flask Dashboard](https://admin-dashboards.com/tags/flask-dashboard) - Index provided by **Admin-Dashboards.com**
