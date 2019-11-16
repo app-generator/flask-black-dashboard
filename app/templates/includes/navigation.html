@@ -60,18 +60,28 @@
                     Log out
                   </p>
                 </a>
-                <ul class="dropdown-menu dropdown-navbar">
-                  <li class="nav-link">
-                    <a href="javascript:void(0)" class="nav-item dropdown-item">Profile</a>
-                  </li>
-                  <li class="nav-link">
-                    <a href="javascript:void(0)" class="nav-item dropdown-item">Settings</a>
-                  </li>
-                  <li class="dropdown-divider"></li>
-                  <li class="nav-link">
-                    <a href="javascript:void(0)" class="nav-item dropdown-item">Log out</a>
-                  </li>
-                </ul>
+                {% if current_user.is_authenticated %}
+
+                  <ul class="dropdown-menu dropdown-navbar">
+                    <li class="nav-link">
+                      <a href="/user.html" class="nav-item dropdown-item">Profile</a>
+                    </li>
+                    <li class="dropdown-divider"></li>
+                    <li class="nav-link">
+                      <a href={{ url_for('logout') }} class="nav-item dropdown-item">Log out</a>
+                    </li>
+                  </ul>
+
+                {% else %}
+
+                  <ul class="dropdown-menu dropdown-navbar">
+                    <li class="nav-link">
+                      <a href={{ url_for('login') }} class="nav-item dropdown-item">Login</a>
+                    </li>
+                  </ul>
+              
+                {% endif %}
+
               </li>
               <li class="separator d-lg-none"></li>
             </ul>
