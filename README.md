@@ -2,11 +2,10 @@
 
 **[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/flask-black-dashboard)** coded in **Flask Web Framework** on top of **Black Dashboard** design, crafted by Creative-Tim agency. **Dashboard** features:
 
-<br />
-
 - SQLite database
 - SQLAlchemy ORM
 - Session-Based authentication flow (login, register)
+- UI Kit: [Black Dashboard](https://github.com/app-generator/fork-black-dashboard-html) by **Creative-Tim**
 
 <br />
 
