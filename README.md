@@ -1,4 +1,4 @@
-# [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-black-dashboard)
+# [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black)
 
 **[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/flask-black-dashboard)** coded in **Flask Web Framework** on top of **Black Dashboard** design, crafted by Creative-Tim agency. **Dashboard** features:
 
@@ -66,7 +66,7 @@ $ # Access the app in browser: http://127.0.0.1:5000/
 
 ## Resources
 
-- [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-black-dashboard) - Product page
+- [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) - Product page
 - [Flask Dashboard Black](https://flask-black-dashboard.appseed.us/) - Live DEMO
 - [Flask Framework](https://www.palletsprojects.com/p/flask/) - The offcial website
 - [Flask Dashboard - Open-Source Boilerplates](https://dev.to/sm0ke/flask-dashboard-open-source-boilerplates-dkg) - A popular article published on Dev.to platform
@@ -75,4 +75,4 @@ $ # Access the app in browser: http://127.0.0.1:5000/
 <br />
 
 ---
-[Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-black-dashboard) provided by **AppSeed**
+[Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) provided by **AppSeed**
