@@ -1,22 +1,25 @@
 # [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black)
 
-**[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/flask-black-dashboard)** coded in **Flask Web Framework** on top of **Black Dashboard** design, crafted by Creative-Tim agency. **Dashboard** features:
+**[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/flask-dashboard-black)** coded in **Flask Framework** on top of **Black Dashboard** design. **Features**:
 
-- SQLite database
-- SQLAlchemy ORM
-- Session-Based authentication flow (login, register)
-- UI Kit: [Black Dashboard](https://github.com/app-generator/fork-black-dashboard-html) by **Creative-Tim**
+- SQLite, PostgreSQL, SQLAlchemy ORM
+- Alembic (DB schema migrations)
+- Modular design with **Blueprints**
+- Session-Based authentication (via **flask_login**)
+- Forms validation
+- Deployment scripts: Docker, Gunicorn
+- UI Kit: **Black Dashboard** provided by **Creative-Tim**
 
 <br />
 
-![Flask Dashboard Black - Open-Source Flask Dashboard.](https://raw.githubusercontent.com/app-generator/static/master/products/flask-black-dashboard-intro.gif)
+![Flask Dashboard Black - Open-Source Dashboard.](https://raw.githubusercontent.com/app-generator/static/master/products/flask-black-dashboard-intro.gif)
 
 <br />
 
-## Build from sources
+## How to use it
 
 ```bash
-$ # Clone the sources
+$ # Get the code
 $ git clone https://github.com/app-generator/flask-black-dashboard.git
 $ cd flask-black-dashboard
 $
@@ -28,8 +31,12 @@ $ # Virtualenv modules installation (Windows based systems)
 $ # virtualenv --no-site-packages env
 $ # .\env\Scripts\activate
 $ 
-$ # Install requirements
-$ pip3 install -r requirements.txt
+$ # Install modules
+$ # SQLIte version (no PostgreSQL)
+$ pip3 install -r requirements-sqlite.txt
+$ 
+$ # OR with PostgreSQL connector
+$ pip install -r requirements.txt
 $
 $ # Set the FLASK_APP environment variable
 $ (Unix/Mac) export FLASK_APP=run.py
@@ -41,42 +48,51 @@ $ # (Unix/Mac) export FLASK_ENV=development
 $ # (Windows) set FLASK_ENV=development
 $ # (Powershell) $env:FLASK_ENV = "development"
 $
-$ # Run the application
+$ # Start the application (development mode)
 $ # --host=0.0.0.0 - expose the app on all network interfaces (default 127.0.0.1)
 $ # --port=5000    - specify the app port (default 5000)  
 $ flask run --host=0.0.0.0 --port=5000
 $
-$ # Access the app in browser: http://127.0.0.1:5000/
+$ # Access the dashboard in browser: http://127.0.0.1:5000/
 ```
 
 <br />
 
-## Want more? Go PRO!
+## Docker execution
+
+The application can be easily excuted in a docker container. The steps:
+
+> Get the code
+
+```bash
+$ git clone https://github.com/app-generator/flask-material-dashboard.git
+$ cd flask-material-dashboard
+```
+
+> Start the app in Docker
+
+```bash
+$ sudo docker-compose pull && sudo docker-compose build && sudo docker-compose up -d
+```
+
+Visit `http://localhost:5000` in your browser. The app should be up & running.
 
 <br />
 
-| [Flask Dashboard Material](https://appseed.us/admin-dashboards/flask-dashboard-material-pro) | [Flask Dashboard Argon](https://appseed.us/admin-dashboards/flask-dashboard-argon-pro) | [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black-pro) |
-| --- | --- | --- |
-| [![Flask Dashboard Material PRO](https://raw.githubusercontent.com/app-generator/static/master/products/flask-dashboard-material-pro-intro.gif)](https://appseed.us/admin-dashboards/flask-dashboard-material-pro)  | [![Flask Dashboard Argon PRO](https://raw.githubusercontent.com/app-generator/static/master/products/flask-dashboard-argon-pro-intro.gif)](https://appseed.us/admin-dashboards/flask-dashboard-argon-pro) | [![Flask Dashboard Black PRO](https://raw.githubusercontent.com/app-generator/static/master/products/flask-dashboard-black-pro-intro.gif)](https://appseed.us/admin-dashboards/flask-dashboard-black-pro)
-
-<br />
-
-## Support
-
-- Free support via eMail < [support @ appseed.us](https://appseed.us/support) > and **Github** issues tracker
-- 24/7 Live Support via [Discord](https://discord.gg/fZC6hup) for paid plans and commercial products.
-
-<br />
-
-## Resources
+## Credits & Links
 
 - [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) - Product page
-- [Flask Dashboard Black](https://flask-black-dashboard.appseed.us/) - Live DEMO
-- [Flask Framework](https://www.palletsprojects.com/p/flask/) - The offcial website
+- [Flask Framework](https://www.palletsprojects.com/p/flask/) - Offcial website
 - [Flask Dashboard - Open-Source Boilerplates](https://dev.to/sm0ke/flask-dashboard-open-source-boilerplates-dkg) - A popular article published on Dev.to platform
 - [Flask Dashboard](https://admin-dashboards.com/tags/flask-dashboard) - Index provided by **Admin-Dashboards.com**
 
 <br />
 
+## License
+
+@MIT
+
+<br />
+
 ---
-[Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) provided by **AppSeed**
+[Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) - provided by **AppSeed**
