@@ -12,7 +12,7 @@
 
 <br />
 
-![Flask Dashboard Black - Open-Source Dashboard.](https://raw.githubusercontent.com/app-generator/static/master/products/flask-black-dashboard-screen.png)
+![Flask Dashboard Black - Open-Source Dashboard.](https://raw.githubusercontent.com/app-generator/static/master/products/flask-dashboard-black-screen.png)
 
 <br />
 
