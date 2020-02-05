@@ -1,6 +1,8 @@
 # [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black)
 
-**[Open-Source Admin Dashboard](https://appseed.us/admin-dashboards/flask-dashboard-black)** coded in **Flask Framework** on top of **Black Dashboard** design. **Features**:
+**Open-Source Admin Dashboard** coded in **[Flask Framework](https://palletsprojects.com/p/flask/)** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+
+### Dashboard Features:
 
 - SQLite, PostgreSQL, SQLAlchemy ORM
 - Alembic (DB schema migrations)
@@ -8,7 +10,16 @@
 - Session-Based authentication (via **flask_login**)
 - Forms validation
 - Deployment scripts: Docker, Gunicorn
-- UI Kit: **Black Dashboard** provided by **Creative-Tim**
+- UI Kit: **Black Dashboard** (Free Version) provided by **Creative-Tim**
+
+<br />
+
+## Product technology stack
+
+- Used Language: [Python3](https://www.python.org/) (Python2 is not supported)
+- Web Framework: [Flask](https://www.palletsprojects.com/p/flask/)
+- CSS Framework: [Bootstrap CSS](https://getbootstrap.com/)
+- Javascript: [jQuery](https://jquery.com/)
 
 <br />
 
@@ -113,4 +124,4 @@ Visit `http://localhost:5000` in your browser. The app should be up & running.
 <br />
 
 ---
-[Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) - provided by **AppSeed**
+[Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
