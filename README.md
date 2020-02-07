@@ -93,8 +93,8 @@ The application can be easily executed in a docker container. The steps:
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/flask-material-dashboard.git
-$ cd flask-material-dashboard
+$ git clone https://github.com/app-generator/flask-black-dashboard.git
+$ cd flask-black-dashboard
 ```
 
 > Start the app in Docker
