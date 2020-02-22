@@ -16,15 +16,6 @@
 
 <br />
 
-## Product technology stack
-
-- Used Language: [Python3](https://www.python.org/) (Python2 is not supported)
-- Web Framework: [Flask](https://www.palletsprojects.com/p/flask/)
-- CSS Framework: [Bootstrap CSS](https://getbootstrap.com/)
-- Javascript: [jQuery](https://jquery.com/)
-
-<br />
-
 ## Dashboard Links
 
 - [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) - Product page
