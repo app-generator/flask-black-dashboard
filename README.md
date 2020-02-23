@@ -19,7 +19,7 @@
 ## Dashboard Links
 
 - [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) - Product page
-- [Flask Dashboard Black](https://github.com/app-generator/flask-black-dashboard) - Source code (published on Github)
+- [Flask Dashboard Black](https://docs.appseed.us/admin-dashboards/flask-dashboard-black/) - Documentation
 - [Flask Dashboard Black](https://flask-dashboard-black.appseed.us/login) - LIVE demo
 
 <br />
