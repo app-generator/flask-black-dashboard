@@ -176,4 +176,4 @@ A dashboard is a set of pages that are easy to read and offer information to the
 <br />
 
 ---
-[Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+**[Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black)** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
