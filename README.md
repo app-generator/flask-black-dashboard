@@ -2,6 +2,10 @@
 
 **Open-Source Admin Dashboard** coded in **Flask Framework** on top of **Black Dashboard** design (free version) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
 
+<br />
+
+> Enjoy this project? Join our efforts to actively support the open-source ecosystem via a [PayPal.me donation](https://paypal.me/appseed). **Thank you!** 
+
 ## Dashboard Features:
 
 - SQLite, PostgreSQL, SQLAlchemy ORM
