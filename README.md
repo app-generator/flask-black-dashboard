@@ -4,7 +4,9 @@
 
 <br />
 
-> Enjoy this project? Join our efforts to actively support the open-source ecosystem via a [PayPal.me donation](https://paypal.me/appseed). **Thank you!** 
+> Enjoy this project? **Join our efforts** to actively support the open-source ecosystem via a **[PayPal.me donation](https://paypal.me/appseed)**. Thank you!
+
+<br />
 
 ## Dashboard Features:
 
