@@ -6,7 +6,7 @@
 
 > **[Feedback/Suggest Feature](https://appseed.nolt.io/3)**
 
-This product is **built based on community feedback**. Feel free (anonymously) to **[suggest/vote](https://appseed.nolt.io/3) features**. For more information, please access the [Facebook](https://www.facebook.com/webappseed/) page or chat with us on [Discord](https://discord.gg/fZC6hup).
+This product is **built based on community feedback**. Feel free (anonymously) to **[suggest/vote features](https://appseed.nolt.io/3)**. For more information, please access the [Facebook](https://www.facebook.com/webappseed/) page or chat with us on [Discord](https://discord.gg/fZC6hup).
 
 <br />
 
