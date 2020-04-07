@@ -8,7 +8,7 @@
 
 <br />
 
-## Dashboard Features - [Suggest Feature/Provide Feedback]([Suggest feature](https://appseed.nolt.io/3))
+## Dashboard Features - [Suggest Feature/Provide Feedback](https://appseed.nolt.io/3)
 
 - SQLite, PostgreSQL, SQLAlchemy ORM
 - Alembic (DB schema migrations)
