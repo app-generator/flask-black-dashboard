@@ -4,11 +4,14 @@
 
 <br />
 
-> Enjoy this project? **Join our efforts** to actively support the open-source ecosystem via a **[PayPal.me donation](https://paypal.me/appseed)**. Thank you!
+### [Feedback/Suggest Feature](https://appseed.nolt.io/3)
+
+This product is **built based on community feedback**. Feel free (anonymously) to **[suggest/vote](https://appseed.nolt.io/3) features**.
+For more information **talk with us** on [Facebook](https://www.facebook.com/webappseed/) or LIVE on **[Discord](https://discord.gg/fZC6hup)**.
 
 <br />
 
-## Dashboard Features - [Suggest Feature/Provide Feedback](https://appseed.nolt.io/3)
+## Dashboard Features
 
 - SQLite, PostgreSQL, SQLAlchemy ORM
 - Alembic (DB schema migrations)
