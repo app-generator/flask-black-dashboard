@@ -8,7 +8,7 @@
 
 <br />
 
-## Dashboard Features:
+## Dashboard Features - [Suggest Feature/Provide Feedback]([Suggest feature](https://appseed.nolt.io/3))
 
 - SQLite, PostgreSQL, SQLAlchemy ORM
 - Alembic (DB schema migrations)
@@ -20,7 +20,6 @@
 - **MIT License**
 - Support: Free support via **Github** and (Paid) **24/7 LIVE Support** via [Discord](https://discord.gg/fZC6hup)
 
-> Not here what you're loking for? **[Suggest feature](https://appseed.nolt.io/3)**
 
 <br />
 
