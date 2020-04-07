@@ -2,9 +2,9 @@
 
 **Open-Source Admin Dashboard** coded in **Flask Framework** on top of **Black Dashboard** design (free version) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
 
-<br />
 
 ### [Feedback/Suggest Feature](https://appseed.nolt.io/3)
+---
 
 This product is **built based on community feedback**. Feel free (anonymously) to **[suggest/vote](https://appseed.nolt.io/3) features**.
 For more information **talk with us** on [Facebook](https://www.facebook.com/webappseed/) or LIVE on **[Discord](https://discord.gg/fZC6hup)**.
