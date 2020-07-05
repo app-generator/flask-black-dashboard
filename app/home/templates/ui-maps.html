@@ -25,11 +25,15 @@
 <!-- Specific Page JS goes HERE  -->
 {% block javascripts %}
 
-<script>
-  $(document).ready(function() {
-    // Javascript method's body can be found in assets/js/demos.js
-    demo.initGoogleMaps();
-  });
-</script>
+  <!--  Google Maps Plugin    -->
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+
+  <script>
+    $(document).ready(function() {
+      // Javascript method's body can be found in assets/js/demos.js
+      demo.initGoogleMaps();
+    });
+  </script>
   
 {% endblock javascripts %}
