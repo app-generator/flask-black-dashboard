@@ -58,7 +58,7 @@
                 <div class="card-footer">
                   <button type="submit" name="login" class="btn btn-fill btn-primary">Login</button>
                   &nbsp; &nbsp;
-                  Don't have an account? <a href={{ url_for('base_blueprint.create_user') }} class="text-primary">Create</a>
+                  Don't have an account? <a href="{{ url_for('base_blueprint.create_user') }}" class="text-primary">Create</a>
                 </div>
 
               </form>
@@ -71,14 +71,4 @@
 {% endblock content %}
 
 <!-- Specific Page JS goes HERE  -->
-{% block javascripts %}
-
-  <script>
-    $(document).ready(function() {
-      // Javascript method's body can be found in assets/js/demos.js
-      demo.initDashboardPageCharts();
-
-    });
-  </script>
-
-{% endblock javascripts %}
+{% block javascripts %}{% endblock javascripts %}
