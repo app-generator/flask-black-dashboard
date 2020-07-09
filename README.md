@@ -1,8 +1,8 @@
-# [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black)
+# [Flask Dashboard - Black Design](https://appseed.us/admin-dashboards/flask-dashboard-black)
 
 > **Open-Source Admin Dashboard** coded in **Flask Framework** by **AppSeed** [Web App Generator](https://appseed.us/app-generator) - Features
 
-- UI Kit: **[Black Dashboard](https://www.creative-tim.com/product/black-dashboard?ref=appseed)** (Free version) provided by **[Creative-Tim](https://www.creative-tim.com/?ref=appseed)**
+- UI Kit: **Black Dashboard** (Free version) provided by **Creative-Tim**
 - Modular design with **Blueprints**
 - SQLite, PostgreSQL, SQLAlchemy ORM
 - Alembic (DB schema migrations)
@@ -14,11 +14,11 @@
 
 > Links
 
-- [Flask Dashboard Black](https://flask-dashboard-black.appseed.us/login) - LIVE demo
-- [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) - Product page
-- [Flask Dashboard Black](https://docs.appseed.us/admin-dashboards/flask-dashboard-black/) - Documentation
-- More [Flask Admin Dashboards](https://appseed.us/admin-dashboards/flask) - index hosted by **AppSeed**
-- [Free Admin Dashboards](https://appseed.us/admin-dashboards/open-source) - index hosted by **AppSeed**
+- [Flask Dashboard - Black Design](https://appseed.us/admin-dashboards/flask-dashboard-black) - Product page
+- [Flask Dashboard Black Demo ](https://flask-dashboard-black.appseed.us/login) - LIVE demo
+- [Flask Dashboard Black Docs](https://docs.appseed.us/admin-dashboards/flask-dashboard-black/) - App Documentation
+- More [Flask Dashboards](https://appseed.us/admin-dashboards/flask) - index hosted by **AppSeed**
+- More [Admin Dashboards](https://appseed.us/admin-dashboards) - index hosted by **AppSeed**
 
 <br />
 
@@ -172,4 +172,4 @@ A dashboard is a set of pages that are easy to read and offer information to the
 <br />
 
 ---
-**[Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black)** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Flask Dashboard - Black Design](https://appseed.us/admin-dashboards/flask-dashboard-black) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
