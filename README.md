@@ -15,7 +15,7 @@
 > Links
 
 - [Flask Dashboard - Black Design](https://appseed.us/admin-dashboards/flask-dashboard-black) - Product page
-- [Flask Dashboard Black Demo](https://flask-dashboard-black.appseed.us/login) - LIVE app
+- [Flask Dashboard Black Demo](https://flask-dashboard-black.appseed.us/) - LIVE app
 - [Flask Dashboard Black Docs](https://docs.appseed.us/admin-dashboards/flask-dashboard-black/) - App Documentation
 - More [Flask Dashboards](https://appseed.us/admin-dashboards/flask) - index hosted by **AppSeed**
 - More [Admin Dashboards](https://appseed.us/admin-dashboards) - index hosted by **AppSeed**
