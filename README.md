@@ -33,7 +33,7 @@ PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Suppo
 <br />
 <br />
 
-![Flask Dashboard Black - Open-Source Admin Dashboard coded in Flask by AppSeed.](https://raw.githubusercontent.com/app-generator/static/master/products/flask-dashboard-black-screen.png)
+![Flask Dashboard - Black Design, dashboard screen.](https://raw.githubusercontent.com/app-generator/flask-black-dashboard/master/media/flask-black-dashboard-screen.png)
 
 <br />
 
