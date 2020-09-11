@@ -1,6 +1,6 @@
-{% extends "base-site.html" %}
+{% extends "layouts/base.html" %}
 
-{% block title %} Login {% endblock %} 
+{% block title %} Register {% endblock %} 
 
 <!-- Specific Page CSS goes HERE  -->
 {% block stylesheets %}{% endblock stylesheets %}
@@ -13,52 +13,48 @@
 
               <form role="form" method="post" action="">
               
-                {{ form.hidden_tag() }} 
-
                 <div class="card-header">
-                  <h5 class="title">Login</h5>
+                  <h5 class="title">Register</h5>
 
                   <h6 class="card-category">
-                      {% if msg %}
-                        <span class="text-danger">{{ msg | safe }}</span>
-                      {% else %}
-                      <span>
-                        Use default credentials: test / pass
-                        <br />
-                        OR <a href={{ url_for('base_blueprint.create_user') }} >create your own user</a>
-                      </span>
-                      {% endif %}  
+                      Add your credentials
                   </h6>
                 </div>
 
                 <div class="card-body">
 
                     <div class="row">
-
                       <div class="col-md-3 px-md-1">
                         <div class="form-group">
                           <label>Username</label>
-                          {{ form.username(class="form-control") }}
+                          <input class="form-control" id="username_create" name="username" required="" type="text" value="">
                         </div>
                       </div>
-
                     </div>
-                    <div class="row">
 
+                    <div class="row">
+                      <div class="col-md-3 px-md-1">
+                        <div class="form-group">
+                          <label>Email</label>
+                          <input class="form-control" id="email_create" name="email" required="" type="email" value="">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
                       <div class="col-md-3 px-md-1">
                         <div class="form-group">
                           <label>Password</label>
-                          {{ form.password(class="form-control", type="password") }}
+                          <input class="form-control" id="pwd_create" name="password" required="" type="password" value="">
                         </div>
                       </div>
-
                     </div>
                     
                 </div>
                 <div class="card-footer">
-                  <button type="submit" name="login" class="btn btn-fill btn-primary">Login</button>
+                  <button type="submit" name="register" class="btn btn-fill btn-primary">Register</button>
                   &nbsp; &nbsp;
-                  Don't have an account? <a href="{{ url_for('base_blueprint.create_user') }}" class="text-primary">Create</a>
+                  Have an account? <a href="/login.html" class="text-primary">Login</a>
                 </div>
 
               </form>
