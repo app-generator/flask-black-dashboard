@@ -3,13 +3,11 @@
 > Open-Source admin dashboard coded in **Flask Framework** by **AppSeed** [Web App Generator](https://appseed.us/app-generator) - Features
 
 - UI Kit: **Black Dashboard** (Free version) provided by **Creative-Tim**
-- SQLite, PostgreSQL, SQLAlchemy ORM
-- Alembic (DB schema migrations)
+- DBMS: SQLite, PostgreSQL (production) 
+- DB Tools: SQLAlchemy ORM, Alembic (schema migrations)
 - Modular design with **Blueprints**
-- Session-Based authentication (via **flask_login**)
-- Forms validation
+- Session-Based authentication (via **flask_login**), Forms validation
 - Deployment scripts: Docker, Gunicorn / Nginx, Heroku
-- **[MIT License](https://github.com/app-generator/license-mit)**
 - Support via **Github** and [Discord](https://discord.gg/fZC6hup).
 
 > Links
