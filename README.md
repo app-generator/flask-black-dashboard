@@ -10,13 +10,13 @@
 - Deployment scripts: Docker, Gunicorn / Nginx, Heroku
 - Support via **Github** and [Discord](https://discord.gg/fZC6hup).
 
+<br />
+
 > Links
 
-- [Flask Dashboard - Black Design](https://appseed.us/boilerplate-code/flask-dashboard) - Product page
-- [Flask Dashboard - Black Demo](https://flask-dashboard-black.appseed.us/) - LIVE App deployment
-- [Flask Dashboard Black Docs](https://docs.appseed.us/admin-dashboards/flask-dashboard-black/) - App Documentation
-- More [Flask Admin Dashboards](https://appseed.us/admin-dashboards/flask) - index hosted by **[AppSeed](https://appseed.us)**
-- [Open-Source Admin Dashboards](https://appseed.us/admin-dashboards/open-source) - index hosted by **[AppSeed](https://appseed.us)**
+- [Flask Dashboard Black](https://appseed.us/boilerplate-code/flask-dashboard) - product page
+- [Flask Dashboard Black - Demo](https://flask-dashboard-black.appseed.us/) - LIVE App deployment
+- [Flask Dashboard Black - Docs](https://docs.appseed.us/admin-dashboards/flask-dashboard-black/) - App Documentation
 
 <br />
 
