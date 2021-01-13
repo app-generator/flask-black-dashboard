@@ -19,19 +19,19 @@
             <div class="col-md-5 pr-md-1">
               <div class="form-group">
                 <label>UserID (disabled)</label>
-                <input type="text" class="form-control" disabled="" value="{{ current_user.id }}">
+                <input type="text" class="form-control" disabled="" value="1">
               </div>
             </div>
             <div class="col-md-3 px-md-1">
               <div class="form-group">
                 <label>Username</label>
-                <input type="text" class="form-control" value="{{ current_user.username }}">
+                <input type="text" class="form-control" value="Bill Gates">
               </div>
             </div>
             <div class="col-md-4 pl-md-1">
               <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" value="{{ current_user.email }}">
+                <input type="email" class="form-control" value="bill.gates@microsoft.com">
               </div>
             </div>
           </div>
@@ -104,11 +104,11 @@
             <a href="javascript:void(0)">
               <img class="avatar" src="/static/assets/img/emilyz.jpg" alt="Bill Gates photo - when buys a Linux.">
               <h5 class="title">
-                {{ current_user.username }}
+                Bill Gates
               </h5>
             </a>
             <p class="description">
-              {{ current_user.email }}
+              bill.gates@microsoft.com
             </p>
           </div>
         </p>
