@@ -19,8 +19,8 @@ Black Dashboard is a beautiful Bootstrap 4 Admin Dashboard with a huge number of
 
 > Links
 
-- [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) - product page
-- [Flask Dashboard Black - Demo](https://flask-dashboard-black.appseed.us/) - LIVE App deployment
+- [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) - Product page
+- [Flask Dashboard Black - Demo](https://flask-black-dashboard.appseed-srv1.com) - LIVE App deployment
 - [Flask Tutorial](https://github.com/app-generator/tutorial-flask) - Getting started with Flask
 
 <br />
