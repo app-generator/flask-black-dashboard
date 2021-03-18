@@ -9,7 +9,7 @@ Black Dashboard is a beautiful Bootstrap 4 Admin Dashboard with a huge number of
 > Features
 
 - DBMS: SQLite, PostgreSQL (production) 
-- DB Tools: SQLAlchemy ORM, Alembic (schema migrations)
+- DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 - Modular design with **Blueprints**, simple codebase
 - Session-Based authentication (via **flask_login**), Forms validation
 - Deployment scripts: Docker, Gunicorn / Nginx, Heroku
