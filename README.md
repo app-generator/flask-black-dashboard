@@ -11,7 +11,13 @@
 - Modular design with **Blueprints**, simple codebase
 - Session-Based authentication (via **flask_login**), Forms validation
 - Deployment scripts: Docker, Gunicorn / Nginx, Heroku
-- Support via **Github** and [Discord](https://discord.gg/fZC6hup).
+
+<br />
+
+> Active Support
+
+- Free support: 48h response time (eMail and Github)
+- Paid support: LIVE Support via [Discord](https://discord.gg/fZC6hup), 3h response time (email) 
 
 <br />
 
@@ -19,6 +25,7 @@
 
 - [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) - Product page
 - [Flask Dashboard Black - Demo](https://flask-black-dashboard.appseed-srv1.com) - LIVE App deployment
+- [Flask Dashboard Black - Docs](https://flask-dashboard-black.appseed.us/) - Product Documentation
 
 <br />
 
