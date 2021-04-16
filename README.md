@@ -16,8 +16,8 @@
 
 > Active Support
 
-- Free support: 48h response time (eMail and Github)
-- Paid support: LIVE Support via [Discord](https://discord.gg/fZC6hup), 3h response time (email) 
+- Free Support: 48h response time (eMail and Github)
+- Paid Support: LIVE Support via [Discord](https://discord.gg/fZC6hup), 3h response time (email) 
 
 <br />
 
