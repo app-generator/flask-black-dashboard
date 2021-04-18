@@ -10,14 +10,8 @@
 - DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 - Modular design with **Blueprints**, simple codebase
 - Session-Based authentication (via **flask_login**), Forms validation
-- Deployment scripts: Docker, Gunicorn / Nginx, Heroku
-
-<br />
-
-> Active Support
-
-- Free Support: 48h response time (eMail and Github)
-- Paid Support: LIVE Support via [Discord](https://discord.gg/fZC6hup), 3h response time (email) 
+- Deployment scripts: Docker, Gunicorn / Nginx, Heroku 
+- Support via **Github** and [Discord](https://discord.gg/fZC6hup).
 
 <br />
 
