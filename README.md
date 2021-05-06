@@ -19,7 +19,7 @@
 
 - [Flask Dashboard Black](https://appseed.us/admin-dashboards/flask-dashboard-black) - Product page
 - [Flask Dashboard Black - Demo](https://flask-black-dashboard.appseed-srv1.com) - LIVE App deployment
-- [Flask Dashboard Black - Docs](https://flask-dashboard-black.appseed.us/) - Product Documentation
+- [Flask Dashboard Black - Docs](https://docs.appseed.us/products/flask-dashboards/black-dashboard) - Product Documentation
 
 <br />
 
