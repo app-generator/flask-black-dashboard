@@ -298,7 +298,7 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 
 - [Flask Framework](https://www.palletsprojects.com/p/flask/) - The offcial website
 - [Boilerplate Code](https://appseed.us/boilerplate-code) - Index provided by **AppSeed**
-- [Boilerplate Code](https://github.com/app-generator/boilerplate-code) - Index published on Github
+- [Flask Dashboard Black](https://blog.appseed.us/flask-black-dashboard-update/) - related blog article
 
 <br />
 
