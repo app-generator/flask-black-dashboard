@@ -26,6 +26,27 @@
 
 <br />
 
+## Quick Start in [Docker](https://www.docker.com/)
+
+> Get the code
+
+```bash
+$ git clone https://github.com/app-generator/flask-datta-able.git
+$ cd flask-datta-able
+```
+
+> Start the app in Docker
+
+```bash
+$ docker-compose pull   # download dependencies 
+$ docker-compose build  # local set up
+$ docker-compose up -d  # start the app 
+```
+
+Visit `http://localhost:85` in your browser. The app should be up & running.
+
+<br />
+
 ![Flask Dashboard - Black Design, dashboard screen.](https://user-images.githubusercontent.com/51070104/140599334-00bd0b9a-b2aa-4163-893a-fedd8c5f1afc.gif)
 
 <br />
@@ -192,28 +213,6 @@ The generated file is saved in `static/assets/css` directory.
 ## Deployment
 
 The app is provided with a basic configuration to be executed in [Docker](https://www.docker.com/), [Heroku](https://www.heroku.com/), [Gunicorn](https://gunicorn.org/), and [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/).
-
-<br />
-
-### [Docker](https://www.docker.com/) execution
----
-
-The application can be easily executed in a docker container. The steps:
-
-> Get the code
-
-```bash
-$ git clone https://github.com/app-generator/flask-black-dashboard.git
-$ cd flask-black-dashboard
-```
-
-> Start the app in Docker
-
-```bash
-$ sudo docker-compose pull && sudo docker-compose build && sudo docker-compose up -d
-```
-
-Visit `http://localhost:85` in your browser. The app should be up & running.
 
 <br />
 
