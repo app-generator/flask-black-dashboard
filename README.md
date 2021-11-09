@@ -31,8 +31,8 @@
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/flask-datta-able.git
-$ cd flask-datta-able
+$ git clone https://github.com/app-generator/flask-black-dashboard.git
+$ cd flask-black-dashboard
 ```
 
 > Start the app in Docker
