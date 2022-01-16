@@ -6,7 +6,7 @@
 
 > Features
 
-- `Up-to-date dependencies`: **Flask 2.0.1**
+- `Up-to-date dependencies`
 - [SCSS compilation](#recompile-css) via **Gulp**
 - UI: **[Black Dashboard](https://bit.ly/2L0W6Z7)** v1.0.1 provided by *Creative-Tim*
 - `DBMS`: SQLite, PostgreSQL (production) 
