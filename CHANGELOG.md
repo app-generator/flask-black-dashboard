@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.7] 2022-05-20
+
+- Version built with [Black Dashboard Generator](https://appseed.us/generator/black-dashboard/)
+- Timestamp: `2022-05-20 15:37`
+
 ## [1.0.6] 2022-01-16
 ### Improvements
 
