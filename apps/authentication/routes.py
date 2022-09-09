@@ -22,7 +22,6 @@ from apps.authentication.util import verify_pass
 def route_default():
     return redirect(url_for('authentication_blueprint.login'))
 
-
 # Login & Registration
 
 @blueprint.route('/login', methods=['GET', 'POST'])
@@ -83,8 +82,11 @@ def register():
         db.session.add(user)
         db.session.commit()
 
+        # Delete user from session
+        logout_user()
+        
         return render_template('accounts/register.html',
-                               msg='User created please <a href="/login">login</a>',
+                               msg='Account created successfully.',
                                success=True,
                                form=create_account_form)
 
