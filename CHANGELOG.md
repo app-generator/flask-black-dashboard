@@ -6,6 +6,8 @@
 - Added OAuth via Github
 - Improved Auth Pages
   - UI/UX updates (minor)
+- Added `HEROKU` support
+  - via `Procfile`  
 
 ## [1.0.9] 2022-09-09
 ### Improvements
