@@ -46,7 +46,7 @@ Visit `http://localhost:5085` in your browser. The app should be up & running.
 
 <br />
 
-## Create/Edit `.env` file
+## ✨ Create/Edit `.env` file
 
 The meaning of each variable can be found below: 
 
