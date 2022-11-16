@@ -3,8 +3,8 @@
 ## [1.0.11] 2022-11-13
 ### Improvements
 
-- Compatible with [LIVE Deployer](https://appseed.us/go-live/)
-  - `Drag & Drop` deployment service 
+- ✅ Compatible with [LIVE Deployer](https://appseed.us/go-live/)
+  - [Deploy Black Dashboard with Drag & Drop](https://www.youtube.com/watch?v=WhawUr_yoMc) - `video material`
 
 ## [1.0.10] 2022-09-19
 ### Improvements
