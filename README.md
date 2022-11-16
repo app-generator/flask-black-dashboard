@@ -209,7 +209,7 @@ By default, the app redirects guest users to authenticate. In order to access th
 
 <br />
 
-## Recompile CSS
+## Recompile CSS 
 
 To recompile SCSS files, follow this setup:
 
