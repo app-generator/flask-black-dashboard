@@ -1,6 +1,6 @@
 # Change Log
 
-## [1.0.11] 2023-05-03
+## [1.0.12] 2023-05-03
 ### Changes
 
 - Update Gulp Tooling
