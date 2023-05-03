@@ -20,9 +20,9 @@ var rename = require("gulp-rename");
 
 const paths = {
     src: {
-        base: './',
-        css: './css',
-        scss: './scss',
+        base: './apps/static/assets',
+        css: './apps/static/assets/css',
+        scss: './apps/static/assets/scss',
         node_modules: './node_modules/',
         vendor: './vendor'
     }
@@ -40,6 +40,19 @@ gulp.task('scss', function() {
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest(paths.src.css))
         .pipe(browserSync.stream());
+});
+
+// CSS
+gulp.task('css', function() {
+    return gulp.src([
+            paths.src.css + '/black-dashboard.css'
+        ])
+        .pipe(cleanCss())
+        .pipe(rename(function(path) {
+            // Updates the object in-place
+            path.extname = ".min.css";
+        }))
+        .pipe(gulp.dest(paths.src.css))
 });
 
 // Minify CSS
