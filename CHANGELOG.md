@@ -1,13 +1,20 @@
 # Change Log
 
+## [1.0.11] 2023-05-03
+### Changes
+
+- Update Gulp Tooling
+- Update SCSS
+- Update DOCS
+
 ## [1.0.11] 2022-11-13
-### Improvements
+### Chnages
 
 - ✅ Compatible with [LIVE Deployer](https://appseed.us/go-live/)
   - [Deploy Black Dashboard with Drag & Drop](https://www.youtube.com/watch?v=WhawUr_yoMc) - `video material`
 
 ## [1.0.10] 2022-09-19
-### Improvements
+### Chnages
 
 - Added OAuth via Github
 - Improved Auth Pages
