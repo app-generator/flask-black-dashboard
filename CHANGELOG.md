@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.13] 2023-10-07
+### Changes
+
+- Update Dependencies
+- Silent fallback to SQLite
+- CI/CD for Render
+
 ## [1.0.12] 2023-05-03
 ### Changes
 
