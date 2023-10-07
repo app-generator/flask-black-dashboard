@@ -17,5 +17,3 @@ Flask-Minify==0.37
 
 flask-dance==7.0.0
 blinker==1.6.2
-d:\work\repo-free\flask-adminator\render.yaml d:\work\repo-free\flask-adminator\build.sh
-
