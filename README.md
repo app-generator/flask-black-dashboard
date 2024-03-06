@@ -16,7 +16,7 @@ Open-source **[Flask Dashboard](https://appseed.us/admin-dashboards/flask/)** cr
 - `Authentication`: Session Based, `OAuth` via Github
 - `Deployment`: Docker, Page Compression (Flask-Minify) 
 
-![Black Dashboard - Seed project provided by AppSeed.](https://user-images.githubusercontent.com/51070104/189294897-7b847e63-8d6e-48a5-942c-809155825d08.gif)
+![Black Dashboard Flask - Crafted by AppSeed.](https://github.com/app-generator/flask-black-dashboard/assets/51070104/0428a8aa-d095-4a49-9a6a-5466041f7cec)
 
 <br /> 
 
