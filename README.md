@@ -14,15 +14,15 @@ Open-source **[Flask Dashboard](https://appseed.us/admin-dashboards/flask/)** cr
 | Free Version                          | [PRO Version](https://appseed.us/product/black-dashboard-pro/flask/)          | [Custom Development](https://appseed.us/custom-development/) |  
 | --------------------------------------| --------------------------------------| --------------------------------------|
 | ✓ **Up-to-date dependencies**             | **Everything in Free**, plus:                                        | **Everything in PRO**, plus:          |
-| ✓ Best Practices                          | ✅ **Premium Bootstrap 5 Design**                                    | ✅ **1mo Custom Development**        | 
+| ✓ Best Practices                          | ✅ **Premium Bootstrap 5 Design**                                    | ✅ **1 Week** `Custom Development`  | 
 | ✓ DB: SQLite, MySql                       | ✅ `OAuth` for Github                                                | ✅ **Team**: PM, Developer, Tester   |
 | ✓ DB Tools: ORM, Flask-Migrate            | ✅ `Extended User Model`                                             | ✅ Weekly Sprints                    |
 | ✓ Session-Based authentication            | ✅ `Users Roles`                                                     | ✅ Technical SPECS                   |
 | ✓ `Docker`                                | ✅ `Private REPO Access`                                             | ✅ Documentation                     |
 | ✓ `CI/CD` Flow via Render                 | ✅ **PRO Support** - [Email & Discord](https://appseed.us/support/)  | ✅ **30 days Delivery Warranty**     |
-| ✓ `Free Support`                          | ✅ Deployment Assistance                                             |  -                                   |
+| ✓ `Free Support`                          | -                                                                    | ✅ [CI/CD for AWS, DO](https://appseed.us/terms/#section-ci-cd) **(Extra)**    |
 | ---------------------------------         | ---------------------------------                                     | ---------------------------------  |
-| ✓ [LIVE Demo](https://flask-black-dashboard.appseed-srv1.com/)  | 🚀 [LIVE Demo](https://flask-black-dashboard-enh.appseed-srv1.com/) `PRO` | 🛒 `Order`: **[$3,999](https://appseed.gumroad.com/l/rocket-package)** (GUMROAD) |  
+| ✓ [LIVE Demo](https://flask-black-dashboard.appseed-srv1.com/)  | 🚀 [LIVE Demo](https://flask-black-dashboard-enh.appseed-srv1.com/) `PRO` | 🛒 `Order`: **[$999](https://appseed.gumroad.com/l/rocket-package-week)** (GUMROAD) |  
 
 ![Black Dashboard Flask - Crafted by AppSeed.](https://github.com/app-generator/flask-black-dashboard/assets/51070104/0428a8aa-d095-4a49-9a6a-5466041f7cec)
 
