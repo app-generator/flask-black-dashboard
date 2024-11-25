@@ -56,12 +56,11 @@ class OAuth(OAuthConsumerMixin, db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey("Users.id", ondelete="cascade"), nullable=False)
     user = db.relationship(Users)
 
-
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     email = db.Column(db.String(150), unique=True, nullable=False)
     username = db.Column(db.String(150), unique=True, nullable=False)
     password = db.Column(db.String(150), nullable=False)
-    starting_capital = db.Column(db.Float, nullable=False)  # Add this line
+    starting_capital = db.Column(db.Float, nullable=False)  # Add this line if not already present
 
     # Add any other fields and methods as needed

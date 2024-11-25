@@ -1,10 +1,9 @@
 # # views.py
 
-# views.py# views.py
 from flask import Flask, render_template, request, redirect, url_for
 from flask_login import login_required, current_user
-from yourapp import db
-from yourapp.models import User
+import db
+from apps.authentication.models import User
 
 @app.route('/user.html', methods=['GET', 'POST'])
 @login_required

@@ -29,3 +29,4 @@ class CreateAccountForm(FlaskForm):
     password = PasswordField('Password',
                              id='pwd_create',
                              validators=[DataRequired()])
+    starting_capital = FloatField('Starting Capital', validators=[DataRequired()])
