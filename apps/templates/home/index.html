@@ -415,17 +415,28 @@
         </div>
     </div>
 
+    <!-- New section to display starting capital -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Your Starting Capital</h4>
+                </div>
+                <div class="card-body">
+                    <p>Your starting capital is: ${{ starting_capital }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock content %}
 
 <!-- Specific Page JS goes HERE  -->
 {% block javascripts %}
-
 <script>
     $(document).ready(function () {
         // Javascript method's body can be found in assets/js/demos.js
         demo.initDashboardPageCharts();
-
     });
 </script>
-
 {% endblock javascripts %}
