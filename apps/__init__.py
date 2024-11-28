@@ -1,13 +1,11 @@
 # -*- encoding: utf-8 -*-
-"""
-Copyright (c) 2019 - present AppSeed.us
-"""
 
 import os
 from flask import Flask
 from flask_login import LoginManager
 from flask_sqlalchemy import SQLAlchemy
 from importlib import import_module
+from config import Config
 
 db = SQLAlchemy()
 login_manager = LoginManager()
@@ -40,17 +38,13 @@ def configure_database(app):
 
 from apps.authentication.oauth import github_blueprint
 
-def create_app(config):
+def create_app(config_class=Config):
     app = Flask(__name__)
-    app.config.from_object(config)
-    
-    # Set default database URI to SQLite if not already set
-    if not app.config.get('SQLALCHEMY_DATABASE_URI'):
-        basedir = os.path.abspath(os.path.dirname(__file__))
-        app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'db.sqlite3')
-    
+    app.config.from_object(config_class)
+
     register_extensions(app)
     app.register_blueprint(github_blueprint, url_prefix="/login")
     register_blueprints(app)
     configure_database(app)
+
     return app

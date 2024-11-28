@@ -33,7 +33,15 @@ def login_github():
 
     res = github.get("/user")
     return redirect(url_for('home_blueprint.index'))
-    
+    # routes.py
+from flask import render_template, redirect, request, url_for
+from flask_login import current_user, login_user, logout_user
+from apps import db, login_manager
+from apps.authentication import blueprint
+from apps.authentication.forms import LoginForm
+from apps.authentication.models import User
+from apps.authentication.util import verify_pass
+
 @blueprint.route('/login', methods=['GET', 'POST'])
 def login():
     login_form = LoginForm(request.form)
@@ -60,7 +68,6 @@ def login():
         return render_template('accounts/login.html',
                                form=login_form)
     return redirect(url_for('home_blueprint.index'))
-
 @blueprint.route('/register', methods=['GET', 'POST'])
 def register():
     create_account_form = CreateAccountForm(request.form)

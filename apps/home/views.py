@@ -21,3 +21,4 @@ def user_profile():
         return redirect(url_for('user_profile'))
 
     return render_template('user.html')
+
