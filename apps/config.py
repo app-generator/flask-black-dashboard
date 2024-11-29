@@ -2,14 +2,11 @@
 """
 Copyright (c) 2019 - present AppSeed.us
 """
-# -*- encoding: utf-8 -*-
-"""
-Copyright (c) 2019 - present AppSeed.us
-"""
 
 import os
 import random
 import string
+
 
 class Config(object):
 
@@ -18,7 +15,8 @@ class Config(object):
     # Set up the App SECRET_KEY
     SECRET_KEY = os.getenv('SECRET_KEY', None)
     if not SECRET_KEY:
-        SECRET_KEY = ''.join(random.choice(string.ascii_lowercase) for i in range(32))
+        SECRET_KEY = ''.join(random.choice(string.ascii_lowercase)
+                             for i in range(32))
 
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
@@ -50,7 +48,8 @@ class Config(object):
 
     if USE_SQLITE:
         # This will create a file in <app> FOLDER
-        SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'db.sqlite3')
+        SQLALCHEMY_DATABASE_URI = 'sqlite:///' + \
+            os.path.join(basedir, 'db', 'db.sqlite3')
 
     # Assets Management
     ASSETS_ROOT = os.getenv('ASSETS_ROOT', '/static/assets')
@@ -64,6 +63,7 @@ class Config(object):
     if GITHUB_ID and GITHUB_SECRET:
         SOCIAL_AUTH_GITHUB = True
 
+
 class ProductionConfig(Config):
     DEBUG = False
 
@@ -72,8 +72,10 @@ class ProductionConfig(Config):
     REMEMBER_COOKIE_HTTPONLY = True
     REMEMBER_COOKIE_DURATION = 3600
 
+
 class DebugConfig(Config):
     DEBUG = True
+
 
 # Load all possible configurations
 config_dict = {

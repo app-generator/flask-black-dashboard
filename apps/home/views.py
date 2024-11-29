@@ -1,11 +1,22 @@
-# # views.py
+# -*- encoding: utf-8 -*-
+"""
+Copyright (c) 2019 - present AppSeed.us
+"""
 
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Blueprint, render_template, request, redirect, url_for
 from flask_login import login_required, current_user
-import db
-from apps.authentication.models import User
+from apps import db
+from apps.authentication.models import Users
 
-@app.route('/user.html', methods=['GET', 'POST'])
+home = Blueprint('home', __name__)
+
+
+@home.route('/')
+def index():
+    return render_template('index.html')
+
+
+@home.route('/user.html', methods=['GET', 'POST'])
 @login_required
 def user_profile():
     if request.method == 'POST':
@@ -18,7 +29,6 @@ def user_profile():
         current_user.starting_capital = starting_capital
         db.session.commit()
 
-        return redirect(url_for('user_profile'))
+        return redirect(url_for('home.user_profile'))
 
     return render_template('user.html')
-

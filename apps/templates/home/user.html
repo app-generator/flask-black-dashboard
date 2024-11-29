@@ -2,7 +2,6 @@
 
 {% block title %} User Profile {% endblock %}
 
-<!-- Specific Page CSS goes HERE  -->
 {% block stylesheets %}{% endblock stylesheets %}
 
 <body class="">
@@ -14,16 +13,22 @@
                     <a href="javascript:void(0)" class="simple-text logo-normal">Creative Tim</a>
                 </div>
                 <ul class="nav">
-                    <li class=" ">
-                        <a href="/">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('home.index') }}">
                             <i class="tim-icons icon-chart-pie-36"></i>
                             <p>Dashboard</p>
                         </a>
                     </li>
-                    <li class=" active ">
-                        <a href="/user.html">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{{ url_for('home.user_profile') }}">
                             <i class="tim-icons icon-single-02"></i>
                             <p>User Profile</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('portfolio') }}">
+                            <i class="tim-icons icon-wallet-43"></i>
+                            <p>Portfolio</p>
                         </a>
                     </li>
                     <!-- Other nav items -->
@@ -95,11 +100,11 @@
                                 </a>
                                 <ul class="dropdown-menu dropdown-navbar">
                                     <li class="nav-link">
-                                        <a href="/user.html" class="nav-item dropdown-item">Profile</a>
+                                        <a href="{{ url_for('home.user_profile') }}" class="nav-item dropdown-item">Profile</a>
                                     </li>
                                     <li class="dropdown-divider"></li>
                                     <li class="nav-link">
-                                        <a href="/logout" 
+                                        <a href="{{ url_for('authentication_blueprint.logout') }}" 
                                            class="nav-item dropdown-item">Logout</a>
                                     </li>
                                 </ul>
@@ -109,19 +114,6 @@
                     </div>
                 </div>
             </nav>
-            <div class="modal modal-search fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModal"
-                 aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="SEARCH">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <i class="tim-icons icon-simple-remove"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <!-- End Navbar -->
 
             <div class="content">
@@ -132,7 +124,7 @@
                                 <h5 class="title">Edit Profile</h5>
                             </div>
                             <div class="card-body">
-                                <form method="POST" action="{{ url_for('user_profile') }}">
+                                <form method="POST" action="{{ url_for('home.user_profile') }}">
                                     <div class="row">
                                         <div class="col-md-6 pr-md-1">
                                             <div class="form-group">

@@ -1,12 +1,16 @@
 # -*- encoding: utf-8 -*-
+"""
+Copyright (c) 2019 - present AppSeed.us
+"""
 
-from apps.authentication.oauth import github_blueprint
 import os
 from flask import Flask
 from flask_login import LoginManager
 from flask_sqlalchemy import SQLAlchemy
 from importlib import import_module
 from apps.config import Config
+# -*- encoding: utf-8 -*-
+
 
 db = SQLAlchemy()
 login_manager = LoginManager()
@@ -33,7 +37,7 @@ def configure_database(app):
             # fallback to SQLite
             basedir = os.path.abspath(os.path.dirname(__file__))
             app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + \
-                os.path.join(basedir, 'db.sqlite3')
+                os.path.join(basedir, 'db', 'db.sqlite3')
             print('> Fallback to SQLite ')
             db.create_all()
 
@@ -47,6 +51,7 @@ def create_app(config_class=Config):
     app.config.from_object(config_class)
 
     register_extensions(app)
+    from apps.authentication.oauth import github_blueprint
     app.register_blueprint(github_blueprint, url_prefix="/login")
     register_blueprints(app)
     configure_database(app)
