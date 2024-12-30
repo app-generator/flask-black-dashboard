@@ -1,4 +1,3 @@
-# -*- encoding: utf-8 -*-
 from flask import render_template, redirect, request, url_for, Blueprint
 from flask_login import current_user, login_user, logout_user
 from apps import db, login_manager
@@ -39,7 +38,7 @@ def register():
         username = request.form['username']
         email = request.form['email']
         password = request.form['password']
-        starting_capital = request.form['starting_capital'] or 250000.00
+        starting_capital = request.form.get('starting_capital', 250000.00)
         user = Users.query.filter_by(username=username).first()
         if user:
             return render_template('accounts/register.html', msg='Username already registered', success=False, form=create_account_form)
