@@ -39,3 +39,4 @@ yarn.lock
 .flaskenv*
 !.env.project
 !.env.vault
+.fake
