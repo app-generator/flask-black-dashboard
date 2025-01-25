@@ -1,6 +1,10 @@
+<!-- filepath: /C:/Users/joech/source/repos/Buddha23-RGB/Flask_data_enabled/Buddha23-RGB/flask-black-dashboard/portfolio-app/templates/home/portfolio.html -->
 {% extends "layouts/base.html" %}
 
 {% block title %} Portfolio {% endblock %}
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
 
 {% block content %}
 <div class="container">
@@ -14,7 +18,7 @@
                 <div class="card-body">
                     <div class="table-responsive">
                         <table class="table">
-                            <thead class=" text-primary">
+                            <thead class="text-primary">
                                 <th>Name</th>
                                 <th class="text-center">Value</th>
                             </thead>
@@ -58,7 +62,7 @@
             labels: [{% for item in portfolio %}"{{ item.name }}"{% if not loop.last %}, {% endif %}{% endfor %}],
             datasets: [{
                 data: [{% for item in portfolio %}{{ item.value }}{% if not loop.last %}, {% endif %}{% endfor %}],
-                backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
+                backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF', '#FF9F40', '#FFCD56'],
             }]
         };
         var portfolioPieChart = new Chart(ctx, {
