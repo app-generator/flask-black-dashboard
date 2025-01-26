@@ -2,83 +2,81 @@
 """
 Copyright (c) 2019 - present AppSeed.us
 """
+import os
+import random
+import string
+from datetime import timedelta
 
-import os, random, string
 
 class Config(object):
+    # Base directory
+    BASEDIR = os.path.abspath(os.path.dirname(__file__))
 
-    basedir = os.path.abspath(os.path.dirname(__file__))
+    # App paths
+    APP_ROOT = os.path.dirname(os.path.abspath(__file__))
+    TEMPLATES_ROOT = os.path.join(APP_ROOT, 'templates')
+    STATIC_ROOT = os.path.join(APP_ROOT, 'static')
 
-    # Set up the App SECRET_KEY
-    SECRET_KEY  = os.getenv('SECRET_KEY', None)
-    if not SECRET_KEY:
-        SECRET_KEY = ''.join(random.choice( string.ascii_lowercase  ) for i in range( 32 ))    
+    # Portfolio settings
+    PORTFOLIO_NAME = "My Investment Portfolio"
+    DEFAULT_CAPITAL = 250000.00
+    CURRENCY = "USD"
 
+    # Database settings
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+    DB_PATH = os.path.join(BASEDIR, 'db', 'db.sqlite3')
+    SQLALCHEMY_DATABASE_URI = f'sqlite:///{DB_PATH}'
 
-    DB_ENGINE   = os.getenv('DB_ENGINE'   , None)
-    DB_USERNAME = os.getenv('DB_USERNAME' , None)
-    DB_PASS     = os.getenv('DB_PASS'     , None)
-    DB_HOST     = os.getenv('DB_HOST'     , None)
-    DB_PORT     = os.getenv('DB_PORT'     , None)
-    DB_NAME     = os.getenv('DB_NAME'     , None)
+    # Assets paths
+    ASSETS_ROOT = os.getenv('ASSETS_ROOT', '/static/assets')
+    UPLOAD_FOLDER = os.path.join(STATIC_ROOT, 'uploads')
 
-    USE_SQLITE  = True 
+    # Security
+    SECRET_KEY = os.getenv('SECRET_KEY', ''.join(
+        random.choice(string.ascii_lowercase) for i in range(32)))
+    SESSION_COOKIE_HTTPONLY = True
+    REMEMBER_COOKIE_HTTPONLY = True
+    REMEMBER_COOKIE_DURATION = timedelta(days=7)
 
-    # try to set up a Relational DBMS
-    if DB_ENGINE and DB_NAME and DB_USERNAME:
+    # GitHub OAuth
+    GITHUB_ID = os.getenv('GITHUB_ID', None)
+    GITHUB_SECRET = os.getenv('GITHUB_SECRET', None)
+    SOCIAL_AUTH_GITHUB = bool(GITHUB_ID and GITHUB_SECRET)
 
-        try:
-            
-            # Relational DBMS: PSQL, MySql
-            SQLALCHEMY_DATABASE_URI = '{}://{}:{}@{}:{}/{}'.format(
-                DB_ENGINE,
-                DB_USERNAME,
-                DB_PASS,
-                DB_HOST,
-                DB_PORT,
-                DB_NAME
-            ) 
+    # API settings
+    API_PREFIX = '/api/v1'
 
-            USE_SQLITE  = False
+    # Portfolio data settings
+    PORTFOLIO_CATEGORIES = [
+        'Stocks',
+        'Bonds',
+        'Crypto',
+        'Commodities',
+        'Real Estate'
+    ]
 
-        except Exception as e:
+    # Chart settings
+    CHART_COLORS = {
+        'primary': '#e14eca',
+        'info': '#1d8cf8',
+        'success': '#00f2c3',
+        'warning': '#ff8d72',
+        'danger': '#fd5d93'
+    }
 
-            print('> Error: DBMS Exception: ' + str(e) )
-            print('> Fallback to SQLite ')    
-
-    if USE_SQLITE:
-
-        # This will create a file in <app> FOLDER
-        SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'db.sqlite3') 
-
-    # Assets Management
-    ASSETS_ROOT = os.getenv('ASSETS_ROOT', '/static/assets')    
-    
-    SOCIAL_AUTH_GITHUB  = False
-
-    GITHUB_ID      = os.getenv('GITHUB_ID')
-    GITHUB_SECRET  = os.getenv('GITHUB_SECRET')
-
-    # Enable/Disable Github Social Login    
-    if GITHUB_ID and GITHUB_SECRET:
-         SOCIAL_AUTH_GITHUB  = True
 
 class ProductionConfig(Config):
     DEBUG = False
-
-    # Security
-    SESSION_COOKIE_HTTPONLY = True
-    REMEMBER_COOKIE_HTTPONLY = True
-    REMEMBER_COOKIE_DURATION = 3600
+    ENV = 'production'
 
 
-class DebugConfig(Config):
+class DevelopmentConfig(Config):
     DEBUG = True
+    ENV = 'development'
 
 
-# Load all possible configurations
+# Load configuration
 config_dict = {
     'Production': ProductionConfig,
-    'Debug'     : DebugConfig
+    'Development': DevelopmentConfig
 }

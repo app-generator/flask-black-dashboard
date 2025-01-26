@@ -1,0 +1,74 @@
+<!-- filepath: /C:/Users/joech/source/repos/Buddha23-RGB/Flask_data_enabled/Buddha23-RGB/flask-black-dashboard/portfolio-app/templates/home/portfolio.html -->
+{% extends "layouts/base.html" %}
+
+{% block title %} Portfolio {% endblock %}
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+<div class="container">
+    <!-- Portfolio Table -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Your Portfolio</h4>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead class="text-primary">
+                                <th>Name</th>
+                                <th class="text-center">Value</th>
+                            </thead>
+                            <tbody>
+                                {% for item in portfolio %}
+                                <tr>
+                                    <td>{{ item.name }}</td>
+                                    <td class="text-center">${{ item.value }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie Chart -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Portfolio Distribution</h4>
+                </div>
+                <div class="card-body">
+                    <canvas id="portfolioPieChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block javascripts %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var ctx = document.getElementById('portfolioPieChart').getContext('2d');
+        var portfolioData = {
+            labels: [{% for item in portfolio %}"{{ item.name }}"{% if not loop.last %}, {% endif %}{% endfor %}],
+            datasets: [{
+                data: [{% for item in portfolio %}{{ item.value }}{% if not loop.last %}, {% endif %}{% endfor %}],
+                backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF', '#FF9F40', '#FFCD56'],
+            }]
+        };
+        var portfolioPieChart = new Chart(ctx, {
+            type: 'pie',
+            data: portfolioData,
+        });
+    });
+</script>
+{% endblock %}
