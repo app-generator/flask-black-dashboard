@@ -39,14 +39,14 @@
                                     <div class="col-md-12 px-md-1">
                                         <div class="form-group">
                                             <label>Username</label>
-                                            {{ form.username(class="form-control") }}
+                                            {{ form.username(class="form-control", placeholder="Username") }}
                                         </div>
                                     </div>
 
                                     <div class="col-md-12 px-md-1">
                                         <div class="form-group">
                                             <label>Password</label>
-                                            {{ form.password(class="form-control", type="password") }}
+                                            {{ form.password(class="form-control", type="password", placeholder="Password") }}
                                         </div>
                                     </div>
                                 </div>
@@ -64,7 +64,7 @@
                                 </p>
                             </div>
 
-                            {% if config.SOCIAL_AUTH_GITHUB %}
+                            {% if has_github and has_google %}
 
                                 <div class="text-center">
             
@@ -75,9 +75,15 @@
                                     
                                     <div class="text-center mx-auto">
             
-                                    {% if config.SOCIAL_AUTH_GITHUB %}
+                                    {% if has_github %}
                                         <a href="{{url_for('authentication_blueprint.login_github')}}" class="btn btn-github btn-sm">
-                                        <i class="fab fa-github"></i>
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    {% endif %}
+
+                                    {% if has_google %}
+                                        <a href="{{url_for('authentication_blueprint.login_google')}}" class="btn btn-google btn-sm">
+                                            <i class="fab fa-google"></i>
                                         </a>
                                     {% endif %}
             

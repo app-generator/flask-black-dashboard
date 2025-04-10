@@ -19,6 +19,22 @@
                         <p>Dashboard</p>
                     </a>
                 </li>
+
+
+                <li class="{% if 'dynamic_dt' in segment %} active {% endif %}">
+                    <a href="{{ url_for('table_blueprint.dynamic_dt') }}">
+                      <i class="tim-icons icon-puzzle-10"></i>
+                      <p>Dynamic Tables</p>
+                    </a>
+                </li>    
+                <li class="{% if 'charts' in segment %} active {% endif %}">
+                    <a href="{{ url_for('charts_blueprint.charts') }}">
+                      <i class="tim-icons icon-chart-bar-32"></i>
+                      <p>Charts</p>
+                    </a>
+                </li>  
+
+
                 <li class="{% if 'user' in segment %} active {% endif %}">
                     <a href="/user.html">
                         <i class="tim-icons icon-single-02"></i>
